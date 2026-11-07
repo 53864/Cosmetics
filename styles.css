@@ -18,8 +18,8 @@
 .nav {
     display: flex;
     align-items: center;
-    padding-left: 39%;
-   
+    padding-left: 27%;
+   text-align: center;
 }
 ul {
     list-style: none;
@@ -29,11 +29,12 @@ ul {
 }
 ul li {
     font-size: 20px;
-    padding-right: 40px;
+    padding-right: 30px;
     padding-top: 20px;
     color: white;
     text-shadow: 5px 5px 5px gray;
      font-size: 25px;
+   
 }
 .header-text {
     color: white;
