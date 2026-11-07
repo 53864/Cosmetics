@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+p {
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 .header {
     background-image: url('./images/image.png');
     background-position: 0;
@@ -43,4 +47,22 @@ ul li {
     padding-bottom: 10%;
     text-shadow: 5px 5px 5px gray;
 }
-.card1
+.card-image {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border: 10px solid black;
+}
+.container {
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.face {
+   padding-left: 80px;
+}
+.hero {
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 1.5;
+}
