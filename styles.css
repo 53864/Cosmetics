@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+h2 {
+    font-size: 80px;
+
+}
 p {
     font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -19,42 +23,77 @@ p {
     border: 40px;
     flex-direction: column;
 }
+.logo {
+    margin-right: 20%;
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+
+}
 .nav {
     display: flex;
     align-items: center;
-    padding-left: 27%;
+    padding-left: 38%;
     text-align: center;
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
 }
 ul {
     list-style: none;
     display: flex;
     gap: 40px;
+   
     
 }
-ul li {
+ul li a {
     font-size: 20px;
     padding-right: 30px;
     padding-top: 20px;
     color: white;
-    text-shadow: 5px 5px 5px gray;
     font-size: 25px;
-   
+    text-decoration: none;
 }
 .header-text {
     color: white;
-    font-size: 60px;
+    font-size: 95px;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
     text-shadow: 5px 5px 5px gray;
+}
+.Sale {
+    position: absolute;
+    top: 10px;       
+    right: 10px;  
+    margin-top: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 60px;
 }
 .card-image {
     width: 20%;
     height: 20%;
     object-fit: cover;
-    border: 10px solid black;
+    border: 5px solid rgb(211, 152, 152);
+    float: left;
+    clear: left;
+    
+}
+.card-image2 {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border: 5px solid rgb(211, 152, 152);
+    float: right;
+    clear: right;
+
+}
+.imagetwo {
+    padding-right: 40px;
 }
 .container {
     justify-content: space-around;
@@ -67,5 +106,25 @@ ul li {
     justify-content: space-around;
     padding-top: 50px;
     padding-left: 50px;
+    padding-bottom: 40px;
     line-height: 1.5;
+    float: left; 
+}
+.Backtotop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.Backtotop:hover {
+    background-color: #555555;
+    transform: scale(1.1);
 }
