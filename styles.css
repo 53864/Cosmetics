@@ -4,7 +4,7 @@
     padding: 0;
 }
 p {
-    font-size: 40px;
+    font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .header {
@@ -23,7 +23,10 @@ p {
     display: flex;
     align-items: center;
     padding-left: 27%;
-   text-align: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 ul {
     list-style: none;
@@ -37,7 +40,7 @@ ul li {
     padding-top: 20px;
     color: white;
     text-shadow: 5px 5px 5px gray;
-     font-size: 25px;
+    font-size: 25px;
    
 }
 .header-text {
