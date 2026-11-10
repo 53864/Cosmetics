@@ -61,10 +61,10 @@ ul li a {
     color: white;
     font-size: 95px;
     text-align: center;
-    padding-bottom: 20%;
     text-shadow: 5px 5px 5px gray;
 }
 .Sale {
+    text-decoration: none;
     position: absolute;
     top: 10px;       
     right: 10px;  
@@ -123,7 +123,8 @@ ul li a {
     border-radius: 50%;
     font-size: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s, transform 0.3s;
+   
+   
 }
 .Backtotop:hover {
     background-color: #555555;
