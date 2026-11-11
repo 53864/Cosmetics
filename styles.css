@@ -82,11 +82,12 @@ ul li a {
     border: 5px solid rgb(211, 152, 152);
     float: left;
     clear: left;
+    margin-right: 20px;
     
 }
 .card-image2 {
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
     object-fit: cover;
     border: 5px solid rgb(211, 152, 152);
     float: right;
@@ -95,6 +96,10 @@ ul li a {
 }
 .imagetwo {
     padding-right: 40px;
+}
+.Abt {
+  padding-right: 20px;
+
 }
 .container {
     justify-content: space-around;
@@ -129,4 +134,53 @@ ul li a {
 .Backtotop:hover {
     background-color: #555555;
     transform: scale(1.1);
+}
+
+.product-list {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    padding: 20px; 
+    background-color: black;
+    overflow-x: auto;
+
+}
+.product-image {
+    width: 70%;
+    height: 80%;
+    border-radius: 15px;
+    border: 5px solid #ccc;
+}
+.product-card {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+.product-description {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.Contactus {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid white;
 }
